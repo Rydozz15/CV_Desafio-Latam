@@ -1,6 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+section {
+    scroll-margin-top: 60px;
+}
 .bg-pumpkin {
     background-color: #f0a07c;
 }
@@ -11,5 +14,12 @@ body {
     color: #f0a07c;
 }
 .nav-link, .text-purple {
+    color: #4a247f;
+}
+.nav-link {
+    transition: transform 0.25s linear;
+}
+.nav-link:hover {
+    transform: scale(1.1);
     color: #4a247f;
 }
