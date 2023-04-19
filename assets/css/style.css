@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .bg-pumpkin {
- background-color: #f0a07c;
+    background-color: #f0a07c;
 }
 .bg-purple {
     background-color: #4a247f;
@@ -10,6 +10,6 @@ body {
 .text-pumpkin {
     color: #f0a07c;
 }
-.text-purple {
+.nav-link, .text-purple {
     color: #4a247f;
 }
