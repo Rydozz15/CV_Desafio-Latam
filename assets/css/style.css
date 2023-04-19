@@ -13,7 +13,7 @@ section {
 .text-pumpkin {
     color: #f0a07c;
 }
-.nav-link, .text-purple {
+.nav-link, .nav-link:focus, .text-purple {
     color: #4a247f;
 }
 .nav-link {
