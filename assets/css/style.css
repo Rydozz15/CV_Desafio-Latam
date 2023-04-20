@@ -23,3 +23,10 @@ section {
     transform: scale(1.1);
     color: #4a247f;
 }
+.imagen-header {
+    filter: invert(77%) sepia(83%) saturate(554%) hue-rotate(307deg) brightness(98%) contrast(94%);
+    width: 100%;
+}
+#Experiencia {
+    margin: 0 auto;
+}
