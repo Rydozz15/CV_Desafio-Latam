@@ -25,7 +25,7 @@ section {
 }
 .imagen-header {
     filter: invert(77%) sepia(83%) saturate(554%) hue-rotate(307deg) brightness(98%) contrast(94%);
-    width: 30rem;
+    width: 15rem;
 }
 .list-group-flush .list-group-item {
     background-color: #f0a07c;
