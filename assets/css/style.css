@@ -23,3 +23,25 @@ section {
     transform: scale(1.1);
     color: #4a247f;
 }
+.imagen-header {
+    filter: invert(77%) sepia(83%) saturate(554%) hue-rotate(307deg) brightness(98%) contrast(94%);
+    width: 18rem;
+    margin: 3rem;
+}
+.list-group-flush .list-group-item {
+    background-color: #f0a07c;
+    border-top: 1px solid #4a247f;
+    border-left-color: #f0a07c;
+    border-right-color:#f0a07c;
+    border-bottom: 0;
+  }
+td img {
+    width: 100%;
+}
+tbody, th {
+    border-color: #f0a07c;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #f0a07c;
+    color: #4a247f;
+  }

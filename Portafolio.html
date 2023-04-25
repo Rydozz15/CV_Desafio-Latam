@@ -6,225 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c07fdeefaf.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     <link rel="stylesheet" href="./assets/css/normalize.css"> 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Juan Pablo Fuentes</title>
+    <title>Portafolio</title>
 </head>
-<body>
-<!-- menu -->
-<header> 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="assets/img/Logo.png" class="img-fluid" width="200">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-                <li class="nav-item">
-                    <a class="nav-link" href="#Acerca-de-mi">Educación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Mis-trabajos">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contacto">Portafolio</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<body class="bg-purple text-pumpkin">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-pumpkin">
+  <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="assets/img/Logo.png" class="img-fluid" width="150">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Currículum</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Portafolio</a>
+              </li>
+          </ul>
+      </div>
+  </div>
 </nav>
+<header>
+  <div class="container text-center pt-5 pb-3">
+    <h1 class="display-1 fw-bold mb-2">Portafolio de proyectos espectaculares</h1>
+    <h2>Afirmate a la silla, el impacto puede noquearte &#129327;</h2>
+  </div>
+  <table class="table table-hover text-pumpkin">
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">Proyectos</th>
+              <th scope="col">Imágenes de referencia</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Currículum</td>
+            <td><img src="assets/img/1_proyecto.png" alt="Screenshot de mi CV en formato HTML"></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sitio web con HTML y CSS</td>
+            <td><img src="assets/img/2_proyecto.png" alt="Screenshot de un sitio web de Manicura"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sitio web con flexbox</td>
+            <td><img src="assets/img/3_proyecto.png" alt="Screenshot de un sitio con iguanas"></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Sitio web con Bootstrap y su grid</td>
+            <td><img src="assets/img/4_proyecto.png" alt="Screenshot de una página llena de Cards"></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Sitio web con Bootstrap en una GitHub Page</td>
+            <td><a target="_blank" href="https://rydozz15.github.io/fdsw-github/" ><img src="assets/img/5_proyecto.png" alt="Screenshot de página con Jack Black"></a></td>
+          </tr>
+      </tbody>
+  </table>
 </header>
-<!-- Descuentos -->
-    <main class="container">
-      <section class="row row-cols-md-1 row-cols-lg-3">
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <article class="card m-3 px-0" style="width: 18rem;">
-            <img src="./assets/img/Ejemplo.jpg" class="card-img-top" alt="Foto aleatoria">
-            <div class="card-body">
-              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item ps-0">
-                  <p class="fw-light text-secondary">Plumones Manolino<br><i class="fa-solid fa-location-dot me-1 direccion"></i><span class="direccion">9191 Avenida Vitacura, Chile</span></p>
-                </li>
-                <li class="list-group-item ps-0 text-end">
-                  <p class="card-text text-secondary fw-light">$45.990 <span class="fw-semibold fs-5 text-success">$12.990</span></p>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-    <!-- Form -->
-    <section class="formulario bg-success ">
-      <form class="py-3 px-5 text-center">
-        <legend class="text-light">Recibe cupones en tu correo</legend>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="fname" placeholder="Nombre">       
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="femail" placeholder="Correo Electrónico">
-        </div>
-        <button type="submit" class="btn btn-light fw-bold py-1 px-4"> Enviar</button>
-      </form>
-    </section>
-    <footer class="text-center text-secondary py-3 px-5">
-        <img src="./assets/img/logo-black.png" alt="Footer Logo" width="100">
-        <div class="w-100"></div>
-        <p class="fw-light">© 2018 Cuppon Latam.Todos los derechos reservados.</p>
-    </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<footer class="text-center pt-4 pb-1 px-5">
+  <img src="./assets/img/Logo-footer.png" alt="Footer Logo" width="100">
+  <div class="w-100"></div>
+  <p class="fw-light">© 2022 Juan Pablo Fuentes.Todos los derechos reservados.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
