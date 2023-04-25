@@ -35,3 +35,12 @@ section {
     border-right-color:#f0a07c;
     border-bottom: 0;
   }
+td img {
+    width: 100%;
+}
+tbody, th {
+    border-color: #f0a07c;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #f0a07c;
+  }
