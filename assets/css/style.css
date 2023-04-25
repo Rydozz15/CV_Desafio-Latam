@@ -43,4 +43,5 @@ tbody, th {
 }
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color: #f0a07c;
+    color: #4a247f;
   }
